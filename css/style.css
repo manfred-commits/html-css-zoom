@@ -82,7 +82,7 @@ main i{
 .left-arrow,
 .right-arrow{    
     background-color: #0b0b0b; 
-    background: linear-gradient(to top,rgb(0, 0, 0),rgba(0, 0, 0, 0.74));
+    background: linear-gradient(to top,rgb(0, 0, 0),rgba(103, 103, 103, 0.22));
     border-radius: 2px;
     padding: 5px 10px;
 }
