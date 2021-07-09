@@ -148,7 +148,7 @@ footer ul{
     display: flex;
     align-items: center;
     justify-content: center;    
-    color: white;
+    color: #aaabac;
 }
 .left-icons,
 .right-icons{
@@ -158,16 +158,20 @@ footer ul{
 footer ul li{
     text-align: center;
     padding: 0 5px;
+    position: relative;
 }
 .fa-chevron-up{
     font-size: 10px;
+    position: absolute;
+    top: 0;
+    right:3px;
 }
 .center-icons{
-    width: 53%;    
+    width: 54%;    
     height: 100%;
 }
 .center-icons ul li{
-    padding-right: 28px;
+    padding-right: 30px;
 }
 .right-icons{
     justify-content: flex-end;
