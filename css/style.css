@@ -47,3 +47,49 @@ header{
 .view-container div{
     padding: 2px 5px;
 }
+/* main section of the page */
+main{
+    height: 88vh;
+    background-color: brown;
+    display: flex;
+}
+main i{
+    font-size: 45px;
+}
+.col-left,
+.col-center,
+.col-right{
+    height: 100%;
+    display: flex;
+}
+.col-left,
+.col-right{
+    width: 10%;
+    background-color: pink;
+    flex-direction: column;
+    justify-content: center;
+    color: #2db9ff;
+}
+.col-left{    
+    align-items:flex-start;
+}
+.left-arrow{ 
+    margin-left: 5px;
+}
+.right-arrow{
+    margin-right:5px;
+}
+.left-arrow,
+.right-arrow{    
+    background-color: #0b0b0b; 
+    background: radial-gradient(#3b3b3b, #1e1e1e); 
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+.col-center{
+    width: 80%;
+    background-color: crimson;
+}
+.col-right{    
+    align-items:flex-end;
+}
