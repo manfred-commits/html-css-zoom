@@ -4,3 +4,46 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* header section of the page */
+header{
+    height: 5vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;        
+    color: white;
+    align-items: center;
+}
+.view-container,
+.recording-container{
+    display: flex;
+    align-items: center;
+    margin: 0 7px;
+}
+.recording-container .shield{    
+    padding: 2px 3px;
+    color: #23d959;
+}
+.recording-container .circle{
+    color: #aaaaaa;    
+    margin-left: 5px;
+    padding: 4px 7px;
+}
+.recording-container .circle,
+.recording-container .shield{
+    background-color: #101010;
+    border-radius: 2px;
+}
+.recording-container .circle::after{
+    content: 'Recording...';
+    display: inline-block;
+    color: white;
+}
+.view-container{
+    background-color:#212122 ;
+    padding: 3px;
+    border-radius: 2px;
+}
+.view-container div{
+    padding: 2px 5px;
+}
