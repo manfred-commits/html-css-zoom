@@ -176,6 +176,14 @@ footer ul li{
 .center-icons ul li{
     padding-right: 30px;
 }
+.center-icons ul li span{
+    position: absolute;
+    top: 0;
+    font-size: 10px;
+}
+.green-formatting{
+    color: #23d959;
+}
 .right-icons{
     justify-content: flex-end;
     margin-right: 20px;
