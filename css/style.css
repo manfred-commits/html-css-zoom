@@ -44,6 +44,10 @@ header{
     background-color:#212122 ;
     padding: 3px;
     border-radius: 2px;
+    margin-top: 3px;
+}
+.view-container:hover{
+    transform: scale(1.1);
 }
 .view-container div{
     padding: 2px 5px;
@@ -66,7 +70,6 @@ main i{
 .col-left,
 .col-right{
     width: 13%;
-    /* background-color: pink; */
     flex-direction: column;
     justify-content: center;
     color: #2db9ff;
@@ -75,10 +78,19 @@ main i{
     align-items:flex-start;
 }
 .left-arrow{ 
-    margin-left: 5px;
+    margin-left: 10px;
+}
+.fa-caret-left::after,
+.fa-caret-right::after{
+    content: '2/2';
+    color: #aaabac;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
 }
 .right-arrow{
-    margin-right:5px;
+    margin-right:10px;
 }
 .left-arrow,
 .right-arrow{    
@@ -87,9 +99,12 @@ main i{
     border-radius: 2px;
     padding: 5px 10px;
 }
+.left-arrow:hover,
+.right-arrow:hover{
+    transform: scale(1.1);
+}
 .col-center{
-    width: 74%;
-    /* background-color: crimson;     */
+    width: 85%;
     flex-wrap: wrap;
     align-content: flex-start;
 }
@@ -155,8 +170,11 @@ footer ul{
 }
 .left-icons,
 .right-icons{
-    width: 13%;
+    width: 14%;
     height: 100%;   
+}
+.left-icons ul li{
+    padding: 0 5px;
 }
 footer ul li{
     text-align: center;
@@ -170,11 +188,11 @@ footer ul li{
     right:3px;
 }
 .center-icons{
-    width: 54%;    
+    width: 60%;    
     height: 100%;
 }
 .center-icons ul li{
-    padding-right: 30px;
+    padding: 0 10px;
 }
 .center-icons ul li span{
     position: absolute;
@@ -182,7 +200,7 @@ footer ul li{
     font-size: 10px;
 }
 .green-formatting{
-    color: #23d959;
+    color: #23d959;    
 }
 .right-icons{
     justify-content: flex-end;
@@ -192,4 +210,11 @@ footer ul li{
     background-color: #e02828;
     padding: 5px 30px;
     border-radius: 5px;
+    color: white;
+}
+footer ul li:hover {
+    transform: scale(1.1);
+}
+footer .end-btn:hover {
+    transform: scale(1.1);
 }
