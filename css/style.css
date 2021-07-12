@@ -166,13 +166,17 @@ footer ul{
     align-items: center;
     justify-content: center
 }
+footer button{
+    background-color: inherit;
+    border: 0px;
+    color: #aaabac;
+}
 .left-icons,
 .right-icons,
 .center-icons{
     display: flex;
     align-items: center;
-    justify-content: center;    
-    color: #aaabac;
+    justify-content: center;
 }
 .left-icons i,
 .center-icons i{
