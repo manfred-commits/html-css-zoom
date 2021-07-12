@@ -8,7 +8,7 @@
 }
 /* header section of the page */
 header{
-    height: 5vh;
+    height: 32px;
     width: 100%;
     background-color: #1a1a1a;
     display: flex;
@@ -58,7 +58,7 @@ header{
 }
 /* main section of the page */
 main{
-    height: 88vh;
+    height: calc(100vh - 92px);
     background-color: #1a1a1a;
     display: flex;
 }
@@ -152,7 +152,7 @@ main i{
 }
 /* footer section of the page */
 footer{
-    height: 7vh;
+    height: 60px;
     background-color:#222426;
     background: linear-gradient(to top,rgb(0, 0, 0),rgba(0, 0, 0, 0.74));
     display: flex;
